@@ -31,6 +31,7 @@ function TodoList() {
     if (status === "idle") {
       dispatch(fetchTodos());
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [status]);
 
   if (status === "loading") return <SpinnerLoad />;

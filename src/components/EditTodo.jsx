@@ -27,6 +27,7 @@ function EditTodo({ editModal, closeEdit, todo }) {
     if (!loading) {
       closeEdit();
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading]);
 
   const handleChange = (e) => {

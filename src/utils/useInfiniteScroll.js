@@ -9,11 +9,13 @@ export default function useInfiniteScroll(callback) {
     return () => {
       window.removeEventListener("scroll", scrollDown);
     };
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     if (!loading || isComplete) return;
     callback();
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, isComplete]);
 
   function scrollDown() {

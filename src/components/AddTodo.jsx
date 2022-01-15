@@ -26,6 +26,7 @@ function AddTodo({ openModal, closeModal }) {
     if (!loading) {
       closeModal();
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading]);
 
   const handleSubmit = (e) => {
