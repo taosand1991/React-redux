@@ -10,3 +10,5 @@ Not many functions, just getting todos from a mock API and using crud operations
 - Update Todo
 - Delete Todo
 - Fetch Todos
+
+[![DeepScan grade](https://deepscan.io/api/teams/16760/projects/20082/branches/535103/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16760&pid=20082&bid=535103)
